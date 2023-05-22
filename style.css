@@ -1,0 +1,241 @@
+body {
+    display: block;
+    background-color: #FBF7F0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Noticia Text', serif;
+}
+
+.top-container {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.top-text {
+    position: relative;
+    color: white;
+    padding-top: 140px;
+    height: 350px;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+    text-shadow: 8px 8px 8px black;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    color: #126E82;
+}
+
+h3 {
+    color: #00909E;
+    font-size: 25px;
+    
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 200px;
+}
+
+.middle-container {
+    margin-top: 250px;
+}
+
+.intro {
+    width: 30%;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+p {
+    padding-top: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+hr {
+    border: dotted #30475E 10px;
+    border-bottom: none;
+    width: 100px;
+    margin: 100px auto;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.kermit-writing img {
+    height: 200px;
+    width: 200px;
+}
+
+.skills p {
+    font-size: 18px;
+}
+
+.contact-message {
+    color: #00909E;
+    width: 40%;
+    margin: 40px auto 60px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.btn {
+    background-image: linear-gradient(90deg,#276678 0,#0C7B93 51%,#27496D);
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-image: linear-gradient(90deg,#27496D, #0C7B93 51%, #276678);
+
+}
+
+.footer {
+    color: white;
+    background: #27496D;
+    margin-top: 40px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.language-button {
+    position: absolute;
+    top: 20px;
+    left: 1200px;
+    transform: translateX(-50%);
+    width: 300px;
+    
+}
+
+#english-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#english-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .background {
+        height: auto;
+        object-fit: cover;
+        position: relative;
+      }
+    
+      .top-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    
+      h1 {
+        font-size: 2rem;
+        margin: 0;
+        text-shadow: 4px 4px 4px black;
+      }
+    
+
+    .middle-container {
+        margin-top: 50px; 
+    }
+
+    .intro {
+        width: 80%;
+        font-size: 18px;
+        margin: 20px auto; 
+    }
+
+    .skills {
+        width: 80%;
+        margin: 20px auto; 
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 1rem; 
+    }
+
+    .contact-me h2 {
+        margin-bottom: 5px; 
+    }
+
+    .contact-message {
+        width: 80%;
+        margin: 10px auto; 
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    .language-button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+      
+    #english-btn {
+        font-size: 12px; 
+    }
+
+    hr {
+        width: 100px;
+        border-bottom: none;
+    }
+
+   
+
+    
+
+
+}
+
+  
+
+
+
+
+
+
+
+
